@@ -8,7 +8,7 @@ jobs:
     strategy:
       matrix:
         # TODO add an action workflow to ensure every file in .circleci/extended appears in this list
-        configfile: []
+        configfile: ["aws-ecr"]
     steps:
     - name: checkout
       uses: actions/checkout@v2
