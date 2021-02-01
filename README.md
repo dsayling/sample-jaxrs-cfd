@@ -21,4 +21,4 @@ http://localhost:8080/CFD/1.0.0/swagger.json
 ```
 
 Note that if you have configured the `host` to be something other than localhost, the calls through
-swagger-ui will be directed to that host and not localhost!# sample-jaxrs-cfd
+swagger-ui will be directed to that host and not localhost!
