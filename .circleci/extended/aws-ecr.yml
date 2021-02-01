@@ -31,7 +31,7 @@ jobs:
       - setup_remote_docker
       - checkout
       # I imagine there are easier ways, just doing this for now
-      - run: docker build -t somenamespace/sample-jaxrs
+      - run: docker build -t somenamespace/sample-jaxrs .
 
 
 workflows:
